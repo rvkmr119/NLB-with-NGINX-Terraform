@@ -1,0 +1,14 @@
+nlb = "terraform-network-load-balancer"
+#azs = ["us-east-1a", "us-east-1b", "us-east-1c"]
+lb_type = "network"
+sgs = ["sg-0fdc9c8c32c542bfd"]
+subs = ["subnet-09ccff9de42fe92c6", "subnet-0cc7ad0cae1cf039c", "subnet-0e27e902cb9b61ae8"]
+vpc = "vpc-0a3e7ec569192c47a"
+tg = "aws-target-group-1"
+tg_protocol = "TCP"
+tg_port = 80
+tg_type = "instance"
+region = "us-east-1"
+amitype = "ami-0915e09cc7ceee3ab"
+project = "first ec2 demo"
+i_type = "t2.micro"
